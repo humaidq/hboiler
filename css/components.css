@@ -1,0 +1,94 @@
+/* Entries listing */
+.entry {
+  padding: 5px 15px;
+}
+
+.entry a {
+  display: block;
+  width: 100%;
+  color: #0b47bf;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.meta a {
+  padding: 0;
+  margin: 0 0 5px 15px;
+  color: #555;
+  font-weight: lighter;
+}
+
+.meta p {
+  margin: 0;
+}
+
+blockquote {
+  color: #666;
+  border-left: 4px solid #ccc;
+  padding-left: 8px;
+  margin-left: 0;
+}
+
+pre {
+  padding: 4px;
+}
+
+code, pre {
+  background-color: #efefef;
+  border-radius: 3px;
+}
+
+.badge {
+  background: #dedede;
+  padding: 2px 5px;
+  border-radius: 4px;
+  color: #3f3f3f;
+}
+
+.btn {
+  display: inline-block;
+  font-align: center;
+  color: #333;
+  background-color: #fafafa;
+  padding: 3px 5px; 
+  border: #ccc 1px solid;
+  text-decoration: none;
+}
+
+.btn:focus {
+  border: #888 1px solid;
+}
+
+.btn-danger {
+  background-color: var(--danger-btn);
+  color: #fff;
+}
+
+/* Alert */
+.alert {
+  display: block;
+  margin: 15px;
+  padding: 8px;
+  color: #000;
+  border-radius: 5px;
+}
+
+.alert-title {
+  font-weight: bold;
+}
+
+.alert-green {
+  background-color: var(--success-bg);
+}
+
+.alert-grey {
+  background-color: var(--info-bg);
+}
+
+.alert-yellow {
+  background-color: var(--warning-bg);
+}
+
+.alert-red {
+  background-color: var(--danger-bg);
+}

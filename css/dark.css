@@ -1,0 +1,45 @@
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-bg: #202125;
+    --main-text: #cfcfcf;
+    --nav-text: #cfcfcf;
+    --danger-bg: #94282f;
+    --success-bg: #328732;
+	--info-bg: #3c4043;
+  }
+  .badge, .btn {
+    background-color: #3c4043;
+    color: #feffff;
+  }
+  .alert {
+    color: #efefef;
+  }
+  .btn {
+    border-color: #666;
+  }
+  blockquote {
+    color: #888;
+  }
+  .nav-right, .meta a, .entry a {
+    color: #cfcfcf;
+  }
+  .nav-title {
+    color: #cfcfcf !important;
+  }
+  .post table, .post th, .post td {
+    border: 2px solid #4e4e4e;
+  }
+  textarea, input {
+    background-color: #434449;
+    border-color: #666;
+    color: #efefef;
+  }
+  .post img, .comment img {
+    background-color: #efefef;
+  }
+  code, pre {
+      background-color: #333;
+  }
+}
+

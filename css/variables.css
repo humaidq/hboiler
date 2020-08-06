@@ -1,0 +1,13 @@
+/* Default colours */
+:root {
+  --main-bg: #fefefe;
+  --main-text: #000;
+  --nav-text: #777;
+
+  --success-bg: #a7f9a7;
+  --danger-bg: #f9a7b6;
+  --info-bg: #d7d7d7;
+  --warning-bg: #fcef37;
+
+  --danger-btn: #fc4e51;
+}

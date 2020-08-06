@@ -1,0 +1,31 @@
+/* Navigation */
+.nav {
+  padding: 5px 15px;
+  margin-top: 1em;
+  margin-bottom: 1.2em;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: bold;
+  padding-right: 15px;
+  color: var(--nav-text);
+  line-height: 2rem;
+}
+
+.nav-title {
+  color: var(--main-text) !important;
+}
+
+.nav-left {
+  float: left;
+}
+
+.nav-right {
+  float: right;
+  text-align: right;
+}
+
+.logo {
+  height: 18px;
+}
